@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AIR FORCE MARSHALL</title>
+    <link rel="icon" href="./../img/logo_air.png"></link>
+    <link rel="stylesheet" href="./../css/style_air_force.css"></link>
+    <link rel="stylesheet" href="./../css/style_air_force_marshall.css"></link>
+</head>
+
+<body onload=setInterval(flip,1000)>
+    <div class="no_insert">
+        <a id="head1" href="http://indianairforce.nic.in/" target="_blank">
+            <img src="./../img/logo_air.png" alt="Not found" width="130px" height="130px">
+            <b>indian air force</b>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="gotohome()" target="_blank"> HOME </button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> ABOUT US </button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_history.html">History</a>
+                <a class="note" href="./../html/project_air_force_marshall.html">Marshall of the IAF</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> DEFENCES &amp; HONOURS</button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_defend.html">Weaponry &amp; Defences</a>
+                <a class="note" href="./../html/project_air_force_video.html">Stories of Gallant Actions</a>
+            </div>
+        </div>
+        <a class="note" href="./../html/Entry_air_force.html"> CAREER IN IAF </a>
+        <a class="note" href="./../html/project_air_force_contact.html"> CONTACT INFO </a>
+    </div>
+    <div class="image">
+        <h1>Marshall of the indian air force</h1>
+        <img class="pic" src="./../img/marshall.png" alt="marshall pic" width="350" height="350">
+        <p id="p1">Marshal of the Indian Air Force Arjan Singh DFC, known for his Professional Competence, Leadership and Strategic vision, is a colossus in the IAF.</p>
+        <h2>LIFE AS A CHILD</h2>
+        <p id="p2">Arjan Singh was born on 15 April 1919 and since his early days as a student, he has been an achiever. An ace swimmer, he held an all-India record in free style swimming in one mile and half mile events. Arjan Singh was 19 years of age when he
+            was selected for training at RAF Cranwell in 1938. He topped the course among his batch of Indian Cadets He was the vice captain of swimming, athletics and hockey teams during his training at Royal Air Force College Cranwell.</p>
+        <button id="more1" onclick="add1()">Click to know more...</button>
+        <h2 id="h3">BEST ACHIEVEMENTS</h2>
+        <p id="p3">For displaying outstanding leadership, great skill and courage in Burma Campaign during World War II. He was awarded the Distinguished Flying Cross (DFC) in 1944.
+            <br> Beginning Aug 1945, Wg Cdr Arjan Singh was selected to undergo the RAF Staff college at Bracknell in the UK.
+            <br> On 15 Aug 1947, he had the unique honour of leading the flypast of over a hundred IAF aircraft over the Red Fort and on the same day, he assumed the command of Air Force Station, Ambala in the rank of Group Captain.</p>
+        <button id="more2" onclick="add2()">Click to know more...</button>
+        <h2 id="h4">IN-OFFICE DUTY</h2>
+        <p id="p4">In 1949, Air Commodore Arjan Singh took over as the Air Officer Commanding of Operational command, which later came to be known as Western Air Command. Arjan Singh had the distinction of having the longest tenure as the AOC of Operation Command,
+            from 1949-1952 and again from 1957-1961. Promoted to Air Vice Marshal, he was the AOC-in-C of Operation command. Towards the end of the 1962 war, he was appointed the DCAS and became the VCAS in 1963. He was the overall commander of the joint
+            air training exercises &quot;Shiksha&quot; held between the IAF, RAF and RAAF thus laying the foundation of acquisition of new RADAR systems for IAF and training of IAF officers in USA for advanced gunnery course. He was also instrumental
+            in planning and setting up of Armament Training Wing at Jamnagar, and later the Air Force Academy in 1967.</p>
+        <button id="more3" onclick="add3()">Click to know more...</button>
+        <h2 id="h5">IN-WAR GALLANT</h2>
+        <p id="p5">As Chief of Air Staff, Air Marshal Arjan Singh led the IAF in the 1965 War against Pakistan, wherein the IAF was able to blunt the Pakistani armoured thrust at Chamb, gained air superiority over the PAF and helped the Indian Army score Strategic
+            victories.
+            <br> Arjan Singh was awarded the Padma Vibhushan for leading Indian Air Force during 1965 war. Subsequently, in recognition of the Air Force’s contribution in the war, the rank of CAS was upgraded to that of Air Chief Marshal and Arjan Singh
+            became the first Air Chief Marshal of the Indian Air Force. On completion of five years as the Chief of the Air Staff in two ranks, Arjan Singh retired on 16 Jul 1969.</p>
+        <button id="more4" onclick="add4()">Click to know more...</button>
+        <h2 id="h6">UNIQUENESS</h2>
+        <p id="p6">Arjan Singh has remained a source of inspiration to fellow Indians and Officers. His simple formula for success is summed up in a few words by him.<b><br><br>
+		Firstly, you should be thorough in your satisfaction of everyone;<br>
+		Secondly, complete the job at hand to the satisfaction of everyone;<br>
+		Thirdly, you must have implicit faith in your subordinates;<br>
+		And fourthly, your efforts should always be honest and sincere.<br><br></b> YB Chavan, Defence minister of India during the 1965 war described him as the jewel of a person, quietly efficient and firm, unexcitable but a very able leader.</p>
+        <button id="more5" onclick="add5()">Click to know more...</button>
+        <h2 id="h7">END OF A HERO...</h2>
+        <p id="p7">On 17 April 2007, Dr Manmohan Singh, Prime Minister of India, wrote to Arjan Singh and honoured him as Marshal of the IAF and mentioned that the nation looked up to him as a source of continuing inspiration, wisdom and strength to the Indian Armed
+            Forces.
+            <br> Marshal of the IAF Arjan Singh passed away on 16 Sep 2017. His dynamic personality, professional competence, honesty of purpose in his service to the IAF and the country truly sets him apart as a leader and an icon of the Indian Air Force.</p><br><br>
+        <p id="p8">To download image , <a href="http://www.indianairforce.nic.in/sites/default/files/miaf09apr19.jpg">click here.</a></p>
+    </div>
+</body>
+<script>
+    function add1() {
+        document.getElementById("p3").style = "display:block;";
+        document.getElementById("h3").style = "display:block;";
+        document.getElementById("more1").style = "display:none;";
+        document.getElementById("more2").style = "display:block;";
+    }
+
+    function add2() {
+        document.getElementById("p4").style = "display:block;";
+        document.getElementById("h4").style = "display:block;";
+        document.getElementById("more2").style = "display:none;";
+        document.getElementById("more3").style = "display:block;";
+    }
+
+    function add3() {
+        document.getElementById("p5").style = "display:block;";
+        document.getElementById("h5").style = "display:block;";
+        document.getElementById("more3").style = "display:none;";
+        document.getElementById("more4").style = "display:block;";
+    }
+
+    function add4() {
+        document.getElementById("p6").style = "display:block;";
+        document.getElementById("h6").style = "display:block;";
+        document.getElementById("more4").style = "display:none;";
+        document.getElementById("more5").style = "display:block;";
+    }
+
+    function add5() {
+        document.getElementById("p7").style = "display:block;";
+        document.getElementById("p8").style = "display:block;";
+        document.getElementById("h7").style = "display:block;";
+        document.getElementById("more5").style = "display:none;";
+        document.getElementById("more6").style = "display:block;";
+    }
+</script>
+<script src="./../js/script_base.js"></script>
+
+</html>

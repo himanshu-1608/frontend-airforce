@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AIR FORCE DEFENCE</title>
+    <link rel="icon" href="./../img/logo_air.png"></link>
+    <link rel="stylesheet" href="./../css/style_air_force_defend.css"></link>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body onload=setInterval(flip,1000)>
+    <div class="no_insert">
+        <a id="head1" href="http://indianairforce.nic.in/" target="_blank">
+            <img src="./../img/logo_air.png" alt="Not found" width="130px" height="130px">
+            <b>indian air force</b>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="gotohome()" target="_blank"> HOME </button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> ABOUT US </button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_history.html">History</a>
+                <a class="note" href="./../html/project_air_force_marshall.html">Marshall of the IAF</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> DEFENCES &amp; HONOURS</button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_defend.html">Weaponry &amp; Defences</a>
+                <a class="note" href="./../html/project_air_force_video.html">Stories of Gallant Actions</a>
+            </div>
+        </div>
+        <a class="note" href="./../html/Entry_air_force.html"> CAREER IN IAF </a>
+        <a class="note" href="./../html/project_air_force_contact.html"> CONTACT INFO </a>
+    </div>
+    <div class="image">
+        <div class="w3-container">
+            <h2><b>DEFENCE BEASTS</b></h2>
+        </div>
+        <div class="w3-content w3-section" style="max-width:700px">
+            <img class="mySlides w3-animate-left" src="./../img/def1.jpg" width="700" height="400" style="margin-left:200px;">
+            <img class="mySlides w3-animate-left" src="./../img/def2.jpg" width="700" height="400" style="margin-left:200px;">
+            <img class="mySlides w3-animate-left" src="./../img/def3.jpg" width="700" height="400" style="margin-left:200px;">
+            <img class="mySlides w3-animate-left" src="./../img/def4.jpg" width="700" height="400" style="margin-left:200px;">
+            <img class="mySlides w3-animate-left" src="./../img/def5.jpg" width="700" height="400" style="margin-left:200px;">
+            <img class="mySlides w3-animate-left" src="./../img/def6.jpg" width="700" height="400" style="margin-left:200px;">
+
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "inline-block"
+                x[myIndex - 1].style = "float:center";
+                setTimeout(carousel, 2500);
+            }
+        </script>
+        <h1 id="h1" stylw="font-size:90px;"><b>6 AIR DEFENCE SYSTEM IN INDIA</b></h1>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def1.jpg" alt="def1" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SA-6 or 2K12 'Kub'</h1>
+                    <p id="desc">A Soviet-Era Low-to-Medium level SAM. This system has become nearly obsolete and would be soon phased out by Inducting more Akash systems.</p>
+                    <p>Capable of hitting targets up to 24km and effective altitude of 14km. the system can only guide one of two missiles at a time to a target whereas the Akash is capable of multiple missile guidance at the same time.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def2.jpg" alt="def2" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SA-3 or S-125 'Pechora'</h1>
+                    <p id="desc">Another piece of Soviet-era military tech which has become nearly obsolete in the current war scenario. The minimum range is 3.5 km, and the maximum is 35 km (with the Pechora 2A).</p>
+                    <p>The intercept altitudes are between 100 m and 18 km. It is in service with Indian Air force primarily for guarding Air bases until Akash systems are fully employed.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def3.jpg" alt="def3" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SA-5 or S-200</h1>
+                    <p id="desc"> Is a Medium-to-High level very long range SAM employed to take out high flying bombers. It has a range from 150km to 300km and max speed of Mach 8.</p>
+                    <p>Guided mid-course by radio illumination and has a terminal radar homing phase. It has a very high single shot kill probability of 0.85 and is very effective against long-range bombers.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def4.jpg" alt="def4" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SA-13 'Gopher' or 9K35 'Strela 10M3'</h1>
+                    <p id="desc">SA-13 'Gopher' or 9K35 'Strela 10M3'</p>
+                    <p>The range of target destruction from 0.8km to 5km. Altitude ranging from 25m to 3500m.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def5.jpg" alt="def5" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SA-19 'Grison' or 2K22 'Tunguska'</h1>
+                    <p id="desc">The very famous 'Tunguska' is a mix of two different modes of air defense. It employs the 9M311 for engaging targets from 10km and the dual 2A38M cannons for engaging targets at close range (0.2 to 4km).</p>
+                    <p>The guns give out a combined rate of fire of about 4000-5000 rounds per minute. Indian Army has about 20-90 units in service.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./../img/def6.jpg" alt="def6" style="width:700px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1 id="topic">SPYDER (Surface to Air PYthon and DERby):</h1>
+                    <p id="desc">Is a low-level, quick-reaction surface-to-air missile system capable of engaging aircraft, helicopters, unmanned air vehicles, drones, and precision-guided munitions. </p>
+                    <p> It employs the use of AAM (Air-to-Air Missiles) like Python and Derby to be fired from ground stations to provide air defence. SPYDER-MR engages targets at 35km and SPYDER-SR engages targets at 15km.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./../js/script_base.js"></script>
+
+</html>

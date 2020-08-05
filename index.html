@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AIR FORCE</title>
+    <link rel="icon" href="./img/logo_air.png"></link>
+    <link rel="stylesheet" href="./css/style_air_force.css"></link>
+</head>
+
+<body onload=setInterval(flip,1000)>
+    <div class="no_insert">
+        <a id="head1" href="http://indianairforce.nic.in/" target="_blank">
+            <img src="./img/logo_air.png" alt="Not found" width="130px" height="130px">
+            <b>Indian Air Force</b>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="gotohome()" target="_blank"> HOME </button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> ABOUT US </button>
+            <div class="dropdown-content">
+                <a class="note" href="./html/project_air_force_history.html">History</a>
+                <a class="note" href="./html/project_air_force_marshall.html">Marshall of the IAF</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> DEFENCES &amp; HONOURS</button>
+            <div class="dropdown-content">
+                <a class="note" href="./html/project_air_force_defend.html">Weaponry &amp; Defences</a>
+                <a class="note" href="./html/project_air_force_video.html">Stories of Gallant Actions</a>
+            </div>
+        </div>
+        <a class="note" href="./html/Entry_air_force.html"> CAREER IN IAF </a>
+        <a class="note" href="./html/project_air_force_contact.html"> CONTACT INFO </a>
+    </div>
+    <br>
+    <div class="middle">
+        <div class="middle1">
+            <button class="middlea">Notifications</button>
+        </div>
+        <div class="middle2">
+            <marquee class="marq" direction="up" scrollamount="3" width="1400" height="100" onmouseover="this.stop()" onmouseout="this.start()">
+                <ul>
+                    <li><a href="http://indianairforce.nic.in/content/result-recruitment-ldc-mts-and-hks-held-18-nov-2018-afcao" target="_blank" class="notify"><u>30 Nov 2018</u> : RESULT FOR RECRUITMENT OF LDC, MTS AND HKS HELD ON 18 NOV 2018 AT AFCAO</a></li>
+                    <li>
+                        <a href="http://indianairforce.nic.in/content/dgr-ex-servicemen-employment-seminar-pune-06-december-2018" target="_blank" class="notify"> <u>29 Nov 2018</u> : DGR EX-SERVICEMEN EMPLOYMENT SEMINAR - PUNE ON 06 DECEMBER 2018</a>
+                    </li>
+                    <li>
+                        <a href="http://indianairforce.nic.in/content/18-sep-2009-32-aircraft-iaf-landed-nyoma" target="_blank" class="notify"> <u>18 Sep 2018</u> : AN AN-32 AIRCRAFT OF IAF LANDED AT NYOMA</a>
+                    </li>
+                    <li>
+                        <a href="http://indianairforce.nic.in/content/grant-honorary-commission-15-aug-2018-0" target="_blank" class="notify"> <u>19 Aug 2018</u> : GRANT OF HONORARY COMMISSION ON 15 AUG 2018</a>
+                    </li>
+                    <li>
+                        <a href="http://indianairforce.nic.in/content/kerala-flood-rescue" target="_blank" class="notify"> <u>21 Aug 2018</u> : KERALA FLOOD RESCUE</a>
+                    </li>
+                </ul>
+            </marquee>
+        </div>
+    </div>
+    <br>
+    <div class="image">
+        <div class="w3-container" style="margin-bottom:-50px;">
+            <h2><b>History of IAF</b></h2>
+        </div>
+        <p id="p2">This section deals with the different victories by IAF during Wars, the post War situations.The legends of IAF,all the martyrs ,everyone made their contribution in today's condition of India.</p>
+        <button id="more1" onclick="gotohistory()" target="_blank">Click to know more...</button>
+    </div>
+    <div class="image1">
+        <div class="w3-container" style="margin-bottom:-50px;">
+            <h2><b>Marshall of the IAF</b></h2>
+        </div>
+        <p id="p3">Marshal of the Indian Air Force Arjan Singh DFC, known for his Professional Competence, Leadership and Strategic vision, is a colossus in the IAF.The lion-head roaring &quot;Monster-in-the-Battlefield&quot;.</p>
+        <button id="more1" onclick="gotomarshall()" target="_blank">Click to know more...</button>
+    </div>
+    <div class="image2">
+        <div class="w3-container" style="margin-bottom:-50px;">
+            <h2><b>Weaponry &amp; Defences</b></h2>
+        </div>
+        <p id="p4">The Defence System of India through air-guided missiles and air defences.Here you can get information about the defence potential of India.</p>
+        <button id="more1" onclick="gotodefence()" target="_blank">Click to know more...</button>
+    </div>
+    <div class="image3">
+        <div class="w3-container" style="margin-bottom:-50px;">
+            <h2><b>Stories of Gallant Actions</b></h2>
+        </div>
+        <p id="p5">A motivational video to get recruited in one of the world's most <b>ELITE FORCES - THE IAF</b>.</p>
+        <button id="more1" onclick="gotovideo()" target="_blank">Click to know more...</button>
+    </div>
+    <script src="./js/script_base.js"></script>
+</body>
+
+</html>

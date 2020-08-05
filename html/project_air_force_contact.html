@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AIR FORCE MAIL_TO_US</title>
+    <link rel="icon" href="./../img/logo_air.png"></link>
+    <link rel="stylesheet" href="./../css/style_air_force.css"></link>
+</head>
+
+<body onload=setInterval(flip,1000)>
+    <div class="no_insert">
+        <a id="head1" href="http://indianairforce.nic.in/" target="_blank">
+            <img src="./../img/logo_air.png" alt="Not found" width="130px" height="130px">
+            <b>indian air force</b>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="gotohome()" target="_blank"> HOME </button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> ABOUT US </button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_history.html">History</a>
+                <a class="note" href="./../html/project_air_force_marshall.html">Marshall of the IAF</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> DEFENCES &amp; HONOURS</button>
+            <div class="dropdown-content">
+                <a class="note" href="./../html/project_air_force_defend.html">Weaponry &amp; Defences</a>
+                <a class="note" href="./../html/project_air_force_video.html">Stories of Gallant Actions</a>
+            </div>
+        </div>
+        <a class="note" href="./../html/Entry_air_force.html"> CAREER IN IAF </a>
+        <a class="note" href="./../html/project_air_force_contact.html"> CONTACT INFO </a>
+    </div>
+    <br>
+    <fieldset>
+        <legend>MESSAGE US</legend>
+        <form action="mailto:himanshu_11813072@nitkkr.ac.in" method="get" enctype="text/plain">
+            <br>
+            <br>
+            <br>
+            <center>
+                <span style="font-size:26px; color:#ffff00">Sender's Name:</span>
+                <div class="form-control"><textarea type="text" name="name" rows="2" cols="40" placeholder="Sender's Name" required></textarea>
+                </div>
+            </center>
+            <br>
+            <br>
+            <center>
+                <span style="font-size:26px; color:#ffff00">Sender's Mail Address:</span>
+                <div class="form-control">
+                    <textarea type="email" name="email" rows="2" cols="40" placeholder="example@outlook.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></textarea>
+                </div>
+            </center>
+            <br>
+            <fieldset>
+                <center>
+                    <textarea rows="2" cols="70" name="message" placeholder="Description of message..." required></textarea>
+                </center>
+                <center>
+                    <textarea rows="10" cols="70" name="message" placeholder="Content of message..." required></textarea>
+                </center>
+            </fieldset>
+            <br>
+            <center>
+                <button type="reset" class="button">RESET</button>
+                <button type="submit" class="button">SEND</button>
+            </center>
+        </form>
+    </fieldset>
+    <script src="./../js/script_base.js"></script>
+</body>
+
+</html>
